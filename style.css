@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Quicksand:wght@300&display=swap');
+
+/* general */
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(212deg, rgba(2,0,36,1) 10%, rgba(162,85,244,1) 69%, rgba(179,0,255,1) 100%);
+    color:white;
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: center;
+
+}
+
+
+nav{
+  position: absolute fixed;
+  top: 0;
+  width: 100%;
+}
+
+a{
+  color:white;
+}
+a:hover{
+  color: lightseagreen;
+}
+
+span{
+  color:white
+}
+
+h2{
+  padding-bottom: 100px;
+}
+
+
+
+/* section 1*/
+.presentation{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.prenom{
+  left: 0;
+  top: 50%;
+  width: 100%;
+  display:block;
+  position: absolute;
+}
+
+/* Section competences*/
+
+.Competences{
+  padding-bottom: 300px;
+  padding-top:30px;
+  text-align: center;
+  align-content: center;
+}
+
+.Competences__titre{
+text-align:center
+}
+
+
+
+/* Section PortFolio*/
+.PortfolioCards{
+  padding-bottom: 300px;
+  padding-top:30px;
+}
+
+.lien__portfolio{
+  color:rgba(2,0,36,1)
+}
+
+.portfolio__row{
+  padding: 50;
+  margin:100px;
+}
+
+
+
+/* Section diplomes*/
+.Diplomes{
+  width:100%;
+}
+
+.titre__diplomes{
+  margin: 50 px;
+  padding: 30px
+}
+
+.p__diplomes{
+  font-size: 1.5em;
+}
+
+.ul__competences{
+  padding:30px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+.container__apropos{
+  padding-bottom: 300px;
+  padding-top: 30px;
+}
+
+.Diplomes{
+  padding-bottom: 300px;
+}
+
+/* Animations*/
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-effect {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
